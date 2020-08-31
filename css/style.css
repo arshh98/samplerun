@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: green;
+}
+
+a:link, a:visited, a:active {
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.btn-primary {
+    background-color: green;
+    border: green;
+    color: white !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: darkgreen !important;
+    color: white;
+}
