@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
 
-body {
+body
+{
     background-color: black;
   }
 
@@ -25,10 +26,10 @@ a:hover {
 .btn-primary {
     background-color: yellow;
     border: yellow;
-    color: black !important;
+    color: yellow !important;
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background-color: black !important;
-    color: black;
+    background-color: yellow !important;
+    color: yellow;
 }
