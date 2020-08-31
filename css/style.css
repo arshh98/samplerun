@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
 
 body {
+    background-color: black;
+  }
+
+{
     font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -25,6 +29,6 @@ a:hover {
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background-color: blue !important;
+    background-color: black !important;
     color: black;
 }
