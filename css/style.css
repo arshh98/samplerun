@@ -7,24 +7,24 @@ body {
 
 h1 {
     font-family: 'Roboto Slab', sans-serif;
-    color: green;
+    color: yellow;
 }
 
 a:link, a:visited, a:active {
-    color: green;
+    color: yellow;
 }
 
 a:hover {
-    color: darkgreen;
+    color: yellow;
 }
 
 .btn-primary {
-    background-color: green;
-    border: green;
-    color: white !important;
+    background-color: yellow;
+    border: yellow;
+    color: black !important;
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background-color: darkgreen !important;
-    color: white;
+    background-color: yellow !important;
+    color: black;
 }
