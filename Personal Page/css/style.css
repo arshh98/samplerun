@@ -1,0 +1,68 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&amp;display=swap');
+
+body
+
+{
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+.btn-primary {
+    background-color: yellow;
+    border: yellow;
+    color: blue !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: yellow !important;
+    color: blue;
+}
+
+#videobg {
+    position: fixed;
+    z-index: -2
+}html,body {
+    width:100vw;
+    height: 100vh;
+    margin: 0;
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}
